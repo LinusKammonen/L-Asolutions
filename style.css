@@ -259,6 +259,137 @@ section h2 {
     margin: 0 60px;
 }
 
+/* ── PAGE HERO (contact, services etc.) ── */
+.page-hero {
+    padding: 110px 60px 70px;
+    max-width: 780px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page-hero h1 {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 1.18;
+    color: #1c1c1c;
+    margin-bottom: 18px;
+    letter-spacing: -0.5px;
+}
+
+.page-hero h1 em {
+    font-style: normal;
+    color: #3054ff;
+}
+
+.page-hero p {
+    font-size: 16px;
+    color: #6b6b6b;
+    line-height: 1.75;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* ── CONTACT ── */
+.contact-section {
+    padding: 80px 60px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 80px;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.contact-info h2 {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #1c1c1c;
+    margin-bottom: 28px;
+    letter-spacing: -0.2px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 20px;
+}
+
+.info-label {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #aaaaaa;
+}
+
+.info-item a,
+.info-item span:not(.info-label) {
+    font-size: 14px;
+    color: #4b4b4b;
+    text-decoration: none;
+}
+
+.info-item a:hover {
+    color: #1c1c1c;
+}
+
+/* ── FORM ── */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-group label {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #aaaaaa;
+}
+
+.form-group input,
+.form-group textarea {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #1c1c1c;
+    background-color: #ffffff;
+    border: 1px solid #e0ddd9;
+    border-radius: 4px;
+    padding: 10px 14px;
+    outline: none;
+    transition: border-color 0.15s;
+    resize: vertical;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #c0bdb9;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #3054ff;
+}
+
+.contact-form .btn-primary {
+    align-self: flex-start;
+    cursor: pointer;
+    border: none;
+    font-family: 'Inter', sans-serif;
+}
+
 /* ── FOOTER ── */
 footer {
     padding: 28px 60px;
