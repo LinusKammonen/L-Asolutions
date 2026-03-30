@@ -1,0 +1,146 @@
+/* ── PROFILE PAGE ── */
+
+.profile-main {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 60px 40px 80px;
+}
+
+/* ── TOP SECTION: photo + intro ── */
+.profile-hero {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    padding: 60px 0 56px;
+}
+
+.profile-photo {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 4px;
+    flex-shrink: 0;
+    filter: grayscale(15%);
+}
+
+.profile-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile-label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+}
+
+.profile-intro h1 {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 42px;
+    font-weight: 500;
+    color: #1c1c1c;
+    line-height: 1.1;
+    letter-spacing: -0.3px;
+}
+
+.profile-tagline {
+    font-size: 15px;
+    color: #6b6b6b;
+    line-height: 1.6;
+    max-width: 420px;
+}
+
+.linkedin-btn {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #1c1c1c;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 4px;
+    padding: 7px 18px;
+    width: fit-content;
+    transition: background-color 0.15s;
+}
+
+.linkedin-btn:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* ── BODY SECTIONS ── */
+.profile-body {
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.profile-section h2 {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.profile-section p {
+    font-size: 15px;
+    color: #4b4b4b;
+    line-height: 1.8;
+}
+
+/* ── EDUCATION ── */
+.edu-item {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.edu-year {
+    font-size: 13px;
+    color: #aaaaaa;
+    white-space: nowrap;
+    padding-top: 2px;
+    min-width: 110px;
+}
+
+.edu-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.edu-detail strong {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1c1c1c;
+}
+
+.edu-detail span {
+    font-size: 14px;
+    color: #6b6b6b;
+}
+
+/* ── SKILLS ── */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-tag {
+    font-size: 13px;
+    color: #4b4b4b;
+    background-color: #f0eeeb;
+    border: 1px solid #e0ddd9;
+    border-radius: 4px;
+    padding: 5px 14px;
+}
