@@ -43,21 +43,16 @@
                     <h2>Contact details</h2>
                     <div class="info-item">
                         <span class="info-label">Email</span>
-                        <a href="mailto:hello@lasolutions.se">hello@lasolutions.se</a>
+                        <a href="mailto:hello@lasolutions.se">contact@lasolutions.se</a>
                     </div>
                     <div class="info-item">
                         <span class="info-label">Based in</span>
                         <span>Uppsala, Sweden</span>
                     </div>
-                    <div class="info-item">
-                        <span class="info-label">Response time</span>
-                        <span>Within 24 hours</span>
-                    </div>
                 </div>
 
-                <form class="contact-form" action="https://formspree.io/f/mwvwbwgj" method="POST">
-                    <input type="hidden" name="_subject" value="New message from L&A Solutions website">
-                    <input type="hidden" name="_next" value="https://linuskammonen.github.io/L-Asolutions/thankyou.html">
+                <form name="L&A Kontakt" class="contact-form" data-netlify="true" netlify-honeypot="bot-field" action="/thankyou" method="POST">                    <input type="hidden" name="_subject" value="New message from L&A Solutions website">
+                    <input type="hidden" name="bot-field">
                     <input type="text" name="_gotcha" style="display:none">
                     <div class="form-group">
                         <label for="name">Name</label>
